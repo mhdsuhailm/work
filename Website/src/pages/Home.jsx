@@ -20,7 +20,7 @@ const Home = () => {
               measurable results, helping you achieve your goals with
               confidence.
             </p>
-            <div className='space-x-4'>
+            {/* <div className='space-x-4'>
               <Link
                 to='/services'
                 className='bg-red-600 text-white font-semibold py-2 px-6 rounded-full hover:bg-red-700 transition'
@@ -33,8 +33,22 @@ const Home = () => {
               >
                 Contact Us
               </Link>
+            </div> */}
+            ;
+            <div className='space-x-4'>
+              <a
+                href='#services'
+                className='bg-red-600 text-white font-semibold py-2 px-6 rounded-full hover:bg-red-700 transition'
+              >
+                Our Services
+              </a>
+              <a
+                href='#contact'
+                className='border border-red-600 text-red-600 font-semibold py-2 px-6 rounded-full hover:bg-red-600 hover:text-white transition'
+              >
+                Contact Us
+              </a>
             </div>
-
             {/* Scroll Down Arrow */}
             <a href='#about' className='animate-bounce mt-10 inline-block'>
               <svg

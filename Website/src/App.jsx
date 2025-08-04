@@ -9,6 +9,7 @@ import OurMethodology from './pages/Methodology'
 import CaseStudies from './pages/CaseStudy'
 import EngagementModels from './pages/EngagementModel'
 import ContactDetails from './pages/Contact'
+import ContactForm from './components/ContactCard'
 function App(){
   return(
     <Router>
@@ -20,6 +21,7 @@ function App(){
       <OurMethodology/>
       <CaseStudies/>
       <EngagementModels/>
+      <ContactForm/>
       <ContactDetails/>
     </Router>
   )
